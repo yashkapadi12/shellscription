@@ -2,6 +2,10 @@
 
 source_dir="/home/ubuntu/shellscription"
 dest_dir="/home/ubuntu/backup"
+
+<< help
+this is testing purpose
+help
 function create_backup(){
 
 timestamp=$(date  '+%Y-%m-%d-%H-%M-%S')
